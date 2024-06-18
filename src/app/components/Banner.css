@@ -1,0 +1,13 @@
+.Banner {
+  height: 55vh;
+  width: 100vw;
+  background-image: url("/banner.webp");
+  background-size: cover;
+}
+
+@media (max-width: 768px) {
+  .Banner {
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}

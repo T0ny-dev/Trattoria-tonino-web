@@ -1,0 +1,66 @@
+/* NavbarMobile.css */
+
+/* Estilos generales para la barra de navegación */
+.navbar-mobile {
+  display: none; /* Oculta por defecto en pantallas grandes */
+  position: relative;
+}
+
+.navbar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #000;
+}
+
+.logo {
+  font-size: 1.5em;
+}
+
+.menu-icon {
+  font-size: 2em;
+  cursor: pointer;
+}
+
+/* Estilos para el menú desplegable */
+.menu-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100vh; /* Ajusta según la altura de tu navbar */
+  background-color: #146F4B;
+  color: #fff;
+  z-index: 10;
+}
+
+.menu-dropdown ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.menu-dropdown ul li {
+  margin: 15px 0;
+}
+
+.menu-dropdown ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+/* Media query para mostrar la navbar solo en pantallas menores o iguales a 1100px */
+@media (max-width: 1100px) {
+  .navbar-mobile {
+    display: block;
+  }
+}

@@ -1,0 +1,117 @@
+
+.hero {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  padding: 20px;
+  color: white;
+  background: url('/hero2.jpg') no-repeat center center/cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 60vw;
+}
+
+.hero h1 {
+  margin-top: 10vh;
+  font-family: "PT Serif", serif;
+  font-size:5em;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.hero button:hover {
+  background-color: #c12f2d;
+}
+
+.deliveery {
+  display: flex;
+  align-items: center;
+}
+
+.more_info {
+  margin-left: 2vw;
+  color: #fff;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+      font-size: 2em;
+  }
+
+  .hero p {
+      font-size: 1em;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .hero-content {
+    max-width: 80vw;
+  }
+
+  .hero h1 {
+    font-size: 3em;
+    margin-top: 5vh;
+  }
+
+  .hero p {
+    font-size: 1em;
+  }
+
+  .deliveery {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .more_info {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-content {
+    max-width: 90vw;
+  }
+
+  .hero h1 {
+    font-size: 2em;
+    margin-top: 2vh;
+  }
+
+  .hero p {
+    font-size: 0.9em;
+  }
+
+  .deliveery {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .more_info {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}

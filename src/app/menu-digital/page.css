@@ -1,0 +1,130 @@
+/* MenuDigital.css */
+.menu-digital {
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  overflow-y: auto; /* Habilita el scroll vertical */
+  box-sizing: border-box;
+}
+
+.hero-menu {
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/hero-menu.png");
+  background-size: cover;
+}
+
+.hero-menu h2 {
+  color: #fff;
+  font-size: 2em;
+}
+
+.category-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: -5vh;
+  position: absolute;
+  width: 100%;
+}
+
+.category-button {
+  width: 200px;
+  cursor: pointer;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #146F4B;
+  color: #fff;
+  border-radius: 15px;
+}
+
+.category-button img {
+  width: 64px;
+}
+
+.category-button h2 {
+  margin-top: 10px;
+}
+
+.category-details {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.platillo {
+  width: 70vw;
+  height: 20vh;
+  align-items: center;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  padding: 20px;
+  -webkit-box-shadow: -1px 4px 26px -3px rgba(0,0,0,0.2);
+-moz-box-shadow: -1px 4px 26px -3px rgba(0,0,0,0.2);
+box-shadow: -1px 4px 26px -3px rgba(0,0,0,0.2);
+}
+
+.platillo h3 {
+  margin-right: 2vw;
+}
+
+body > div.menu-digital > div > button{
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #146F4B;
+  color: #fff;
+  border-radius: 100px;
+  border: none;
+  font-size: 2em;
+  cursor: pointer;
+  margin-bottom: 10vh;
+}
+/* MenuDigital.css */
+.menu-digital {
+  text-align: center;
+}
+
+.category-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.category-button {
+  width: 200px;
+  cursor: pointer;
+}
+
+
+
+.category-button h2 {
+  margin-top: 10px;
+}
+
+.category-details {
+  margin-top: 20px;
+}
+
+.platillo {
+  margin-bottom: 15px;
+}
+
+body > div.menu-digital > div > button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+body > div.menu-digital > div > h2 {
+  margin-bottom: 5vh;
+}
